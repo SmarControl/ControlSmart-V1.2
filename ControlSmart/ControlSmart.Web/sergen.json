@@ -1,0 +1,46 @@
+{
+  "RootNamespace": "ControlSmart",
+  "ServerTypings": {
+    "LocalTexts": true
+  },
+  "Restore": {
+    "Exclude": [
+      "/wwwroot/Scripts/serenity/Serenity.CoreLib*.*"
+    ]
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "dbo.Aluguel",
+          "Identifier": "Aluguel",
+          "Module": "Aluguel",
+          "PermissionKey": "Aluguel"
+        },
+        {
+          "Tablename": "dbo.Empresa",
+          "Identifier": "Empresa",
+          "Module": "Empresa",
+          "PermissionKey": "Empresa"
+        },
+        {
+          "Tablename": "dbo.Endereco",
+          "Identifier": "Endereco",
+          "Module": "Endereco",
+          "PermissionKey": "Endereco"
+        },
+        {
+          "Tablename": "dbo.Equipamento",
+          "Identifier": "Equipamento",
+          "Module": "Equipamento",
+          "PermissionKey": "Equipamento"
+        }
+      ]
+    }
+  ],
+  "UpgradeInfo": {
+    "InitialType": "Community",
+    "InitialVersion": "5.2.4.0"
+  }
+}
